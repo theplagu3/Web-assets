@@ -1,0 +1,58 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login container styling */
+.view-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+/* Header styling */
+.header {
+    text-align: center; /* Center the text */
+}
+
+/* Main content styling */
+.sub-content {
+    text-align: center; /* Center the inputs and buttons */
+}
+
+/* Inputs styling */
+.wide-inputs input {
+    width: 100%; /* Make inputs take full width */
+    padding: 10px;
+    margin-bottom: 10px; /* Space between inputs */
+    border: 2px solid #3a3a40; /* Match the border color */
+    border-radius: 20px; /* Rounded corners */
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: #3a3a40; /* Primary button color */
+    color: white;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    box-shadow: 0 0 5px 3px #d6d6d6; /* Glow effect on hover */
+}
