@@ -1,0 +1,54 @@
+/***** Glassmorphism for Windows (Cards, Modals, Dropdowns, etc.) *****/
+
+/* Example for .card, .modal-content, .offcanvas, .dropdown-menu, .toast */
+.card,
+.modal-content,
+.offcanvas,
+.dropdown-menu,
+.toast,
+.popover {
+  background: rgba(30, 34, 41, 0.75) !important;
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  border: 1px solid rgba(255,255,255,0.07);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.35);
+}
+
+/* Optional: Make navbar glassy too */
+.navbar,
+.navbar-collapse,
+.navbar-nav {
+  background: rgba(30, 34, 41, 0.75) !important;
+  backdrop-filter: blur(12px) saturate(140%);
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+/* Optional: Button tweaks for dark/glassy look */
+.btn, .btn-primary, .btn-secondary, .btn-success, .btn-info, .btn-danger, .btn-warning, .btn-dark {
+  background: rgba(56, 66, 81, 0.85) !important;
+  color: #fff !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  backdrop-filter: blur(4px) saturate(120%);
+  -webkit-backdrop-filter: blur(4px) saturate(120%);
+  transition: background 0.2s, border 0.2s;
+}
+
+.btn:hover, .btn:focus {
+  background: rgba(62, 73, 91, 1) !important;
+  color: #fff !important;
+}
+
+/* Optional: Inputs glassy */
+.form-control, .form-select {
+  background: rgba(30, 34, 41, 0.60) !important;
+  color: #dee2e6 !important;
+  border: 1px solid rgba(255,255,255,0.12);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* Optional: Make the body background a dark gradient */
+body {
+  background: linear-gradient(120deg, #22262a 0%, #181a1e 100%);
+}
