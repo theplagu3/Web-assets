@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/*!
+ * Bootswatch v5.3.7 (https://bootswatch.com)
+ * Theme: morph (dark mode + glassmorphism)
+ * Combined and customized for you by ChatGPT
+ */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+/* ========== Variables for dark theme ========== */
+:root {
+  --bs-blue: #378dfc;
+  --bs-indigo: #6610f2;
+  --bs-purple: #5b62f4;
+  --bs-pink: #d63384;
+  --bs-red: #e52527;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #43cc29;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-gray: #7f8a99;
+  --bs-gray-dark: #4
